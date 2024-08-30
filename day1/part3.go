@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func inputForPart3(x []int, err error) []int {
+func inputSlice(x []int, err error) []int {
 	if err != nil {
 		return x
 	}
@@ -14,12 +14,12 @@ func inputForPart3(x []int, err error) []int {
 	if n == 1 {
 		x = append(x, d)
 	}
-	return inputForPart3(x, err)
+	return inputSlice(x, err)
 }
 
 func part3() {
 	fmt.Println("Enter input:")
-	x := inputForPart3([]int{}, nil)
+	x := inputSlice([]int{}, nil)
 	fmt.Println("Finished Input:", x)
 
 	// SUM of input
