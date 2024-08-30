@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Part1() {
+func part1() {
 	var length, width float32
 
 	fmt.Println("Enter Length:")

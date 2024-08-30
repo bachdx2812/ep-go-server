@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Part2() {
+func part2() {
 	var inputStr string
 
 	fmt.Println("Enter a string:")
