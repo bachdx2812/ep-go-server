@@ -33,10 +33,6 @@ func part4() {
 	// Find target in input
 
 	for i, v1 := range x {
-		if v1 > target {
-			continue
-		}
-
 		for j := i + 1; j < len(x); j++ {
 			v2 := x[j]
 			if v2 == target-v1 {
